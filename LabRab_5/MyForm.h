@@ -234,6 +234,7 @@ namespace LabRab5 {
 		float answ = Inta / (Intb - Intc) * (Intd + Inte);
 		string asnw2 = to_string(answ);
 		Answer->Text = gcnew System::String(asnw2.c_str());
+
 	}
 };
 }
